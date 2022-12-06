@@ -1,0 +1,9 @@
+.opt {
+  margin: 1rem 0;
+  width: 90%;
+}
+.opt label {
+  padding: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(90deg, #4834d4, #341f97);
+  background: #03091f;
+}
+
+@media screen and (max-width: 840px) {
+  .home-section {
+    grid-template-columns: 1fr;
+  }
+  .blog {
+    flex-direction: column;
+  }
+  .logo h1 {
+    font-size: 1.2rem;
+  }
+  .links a {
+    font-size: 0.8rem;
+  }
+  .logo img {
+    height: 40px;
+    width: 40px;
+    margin-right: 0.6rem;
+    border-radius: 50%;
+  }
+}

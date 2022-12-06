@@ -1,0 +1,8 @@
+.home-section {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  text-align: center;
+  margin: 5rem auto;
+}

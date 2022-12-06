@@ -1,0 +1,13 @@
+.blog {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 3rem;
+}
+.blog div {
+  background: hsla(0, 0%, 100%, 0.03);
+  border-radius: 6px;
+  border: 1px solid gray;
+  padding: 1rem;
+  margin: 1rem;
+}

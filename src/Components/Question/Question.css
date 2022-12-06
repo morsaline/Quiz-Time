@@ -1,0 +1,36 @@
+.quiz {
+  width: 60%;
+  margin: 5rem auto;
+  border: 2px solid gray;
+  padding: 2rem;
+  background: hsla(0, 0%, 100%, 0.03);
+  color: white;
+  border-radius: 6px;
+}
+.option {
+  font-size: 1rem;
+  font-weight: 500;
+  width: 60%;
+  margin: 0 auto;
+}
+.eye {
+  font-size: 1.5rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 840px) {
+  .option {
+    font-size: 0.8rem;
+    width: 100%;
+    margin: 0;
+  }
+  .eye {
+    font-size: 1rem;
+  }
+  .quiz {
+    font-size: 0.9rem;
+  }
+}
